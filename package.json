@@ -1,0 +1,16 @@
+{
+  "name": "parcelrc-error",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.0-alpha.2.1"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.3"
+  },
+  "scripts": {
+    "dev": "node src/index.js",
+    "bundle": "parcel src/test.js"
+  }
+}
